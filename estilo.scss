@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+$color1: white;
+$color2: rgb(2, 68, 2);
+$bgcolor: rgba(255, 255, 255, 0.2);
+
+$font-l: 25px;
+$font-m: 15px;
+$font-s: 10px;
+
+
+
+.index{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./multimedia/lago.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    color: $color1;
+} 
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./multimedia/arena.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow:hidden;
+}   
+#body-mytravel{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./multimedia/camino.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow:hidden;
+}      
+#body-myprojects{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./multimedia/campo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow:hidden;
+}        
+/*---------------------Maquetado generico para el portfolio--------------------------*/
+@media (min-width: 220px){
+    header{
+        width: 100%;
+        height: auto;
+        text-transform: capitalize;
+        text-align: center;
+        background-color: $bgcolor;
+        padding: 5px;
+        color: $color2;
+    }
+    h1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: $font-l;
+        font-weight: lighter;
+        text-transform: capitalize;
+        width: 100vw;
+        height: auto;
+        color: $color1;
+        text-align: center;
+        margin-top: 40px;
+    }
+    h2{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: $font-s;
+        text-align: center;
+        width: 100vw;
+        height: auto;
+        margin-top: 5px;
+        color: $color2;
+        font-weight: lighter;
+    }
+    main{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;}
+        main ul{
+            list-style: none;
+            text-transform: capitalize;
+            font-weight: lighter;}
+            li{
+                text-decoration: none;
+                margin-top: 25px;
+                list-style-type: none;}
+                li a{
+                    text-decoration: none;
+                    color: $color1;
+                    text-shadow: 1px 1px $color2;}
+                    li a:hover{
+                        color: $color2;
+                        text-shadow: 1px 1px $color1;
+                        font-size: larger;}
+
+
+    /*--------parrafo de my travel-----*/
+    span{
+        background-color: $bgcolor;
+        text-align: center;
+        color: $color2;
+    }
+    /*-------parrafo de my travel-----*/
+    .back{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 200px;}
+        .back a{
+            text-align: center;
+            text-decoration: none;
+            color: $color1;
+            text-shadow: 1px 1px $color2;
+            text-transform: capitalize;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+            .back a:hover{
+                color: $color2;
+                text-shadow: 1px 1px $color1;
+            }       
+
+            /*---------------------Maquetado generico para el portfolio--------------------------*/
+}    
+
+@media(min-width: 470px){
+    h2{
+        font-size: $font-m + 5px;
+        font-weight: lighter;
+    }
+}

@@ -1,0 +1,95 @@
+body{
+    overflow: hidden;
+    overflow-y: scroll;
+    background-color: rgb(1, 4, 5);
+    color: cornsilk;
+}
+.navbar-brand{
+    text-transform: uppercase;
+}
+.collapse{
+    text-transform: capitalize;
+}
+
+
+h3{
+    color: cornsilk;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(1, 4, 5, 0.10);
+}
+.vermas{
+    text-transform: capitalize;
+    background-color: rgb(1, 4, 5, 0.10);
+    text-decoration: none;
+    color: rgb(1, 4, 5);
+    padding: 5px;
+    }
+    .vermas:hover{
+        color: rgb(1, 4, 5);
+        border: none;
+        background-color: rgb(1, 4, 5, 0.20);
+    }
+
+@media (min-width:220px){
+    .surf, .surfskate, .kite{
+        width: 100%;
+    }
+    .surf{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        gap: 10px;
+        justify-content: space-around;
+        background-image: url(../img/bali.jpg);
+        position:static
+    }
+    .surf iframe{
+        width: 200px;
+        height: 200px;
+    }
+    .lele-usuna{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+    .lele-usuna img{
+        width: 210px;
+        height: 200px;
+    }
+    h4{
+        padding:10px;
+        text-align: center;
+        text-transform: uppercase;
+        
+    }
+    .lele-usuna p{
+        width: 500px;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+        margin-top: 5px;
+    }
+    .surfskate{
+        background-image: url(../img/skateboard2.jpg);
+        height: 800px;
+        background-position: center;
+        margin-top: 10px;
+    }
+    .surfskate p{
+        padding: 10px;
+        text-align: center;
+    }
+}    
+    @media (min-width: 500px){
+        .surf iframe{
+            width: 400px;
+            height: 400px;
+    }
+        .lele-usuna img{
+        width: 400px;
+        height: 300px;
+    }
+}

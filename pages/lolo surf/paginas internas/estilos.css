@@ -39,16 +39,17 @@ title{
     .sea{
         width: 100vw;
         height: 300px;
-        background-image: url(../img/sea.png);
+        background-image: url(../img/tortuga.jpg);
         background-position: center;
         background-size: cover;
+        background-position-y: center;
         overflow: hidden;
     
     }
     .green{
         width: 100vw;
         height: 300px;
-        background-image: url(../img/green.png);
+        background-image: url(../img/green3.jpg);
         background-position: center;
         background-size: cover;
         overflow: hidden;

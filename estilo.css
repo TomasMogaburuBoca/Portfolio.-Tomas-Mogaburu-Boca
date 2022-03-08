@@ -1,116 +1,152 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-.index{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(./multimedia/montana.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow:hidden;
-    color: white;
-} 
-body{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(./multimedia/mar.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow:hidden;
-}                 
+
+.index {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./multimedia/lago.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  color: white;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./multimedia/arena.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#body-mytravel {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./multimedia/camino.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#body-myprojects {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./multimedia/campo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
 /*---------------------Maquetado generico para el portfolio--------------------------*/
-@media (min-width: 220px){
-    header{
-        width: 100%;
-        height: auto;
-        text-transform: capitalize;
-        text-align: center;
-        background-color: rgba(255, 255, 255, 0.2);
-        padding: 5px;
-        color: rgb(2, 68, 2)
-    }
-    h1{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 25px;
-        font-weight: lighter;
-        text-transform: capitalize;
-        width: 100vw;
-        height: auto;
-        color:white;
-        text-align: center;
-        margin-top: 40px;
-    }
-    h2{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 15px;
-        text-align: center;
-        width: 100vw;
-        height: auto;
-        margin-top: 5px;
-        color: rgb(2, 68, 2);
-    }
-    main{
-        display: flex;
-        width: 100%;
-        height: auto;
-        justify-content: center;
-        text-align: center;
-        margin-top: 100px;
-    }
-    main ul{
-        list-style: none;
-        text-transform: capitalize;
-        font-weight: lighter;
-    }
-    li{
-        text-decoration: none;
-        margin-top: 25px;
-    }
-    main li a{
-        text-decoration: none;
-        color: white;
-        text-shadow: 1px 1px rgb(2, 68, 2);
-    }
-    main li a:hover{
-        color: rgb(2, 68, 2);
-        text-shadow: 1px 1px white;
-        animation: ease-out 1.5s;
-        animation-duration: 1.5s; animation-timing-function:ease-out; animation-delay: 0s;
-        animation-iteration-count: 1.5s; animation-direction:normal;
-        animation-fill-mode: none;
-        animation-play-state: running;
-        animation-name: greenmood;
-    }
-    /*--------parrafo de my travel-----*/
-    span{
-        background-color: rgba(255, 255, 255, 0.2);
-        text-align: center;
-        color: rgb(2, 68, 2);
-    }
-    /*-------parrafo de my travel-----*/
-    .back{
-        width: 100vw;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin-top: 200px;
-    }
-    .back a{
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        text-shadow: 1px 1px rgb(2, 68, 2);
-        text-transform: capitalize;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    .back a:hover{
-        color: rgb(2, 68, 2);
-        text-shadow: 1px 1px white;
-    }
-                    /*---------------------Maquetado generico para el portfolio--------------------------*/
-}    
+@media (min-width: 220px) {
+  header {
+    width: 100%;
+    height: auto;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    color: #024402;
+  }
+  h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    width: 100vw;
+    height: auto;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+  }
+  h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 5px;
+    color: #024402;
+    font-weight: lighter;
+  }
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+  }
+  main ul {
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: lighter;
+  }
+  li {
+    text-decoration: none;
+    margin-top: 25px;
+    list-style-type: none;
+  }
+  li a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px #024402;
+  }
+  li a:hover {
+    color: #024402;
+    text-shadow: 1px 1px white;
+    font-size: larger;
+  }
+  /*--------parrafo de my travel-----*/
+  span {
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    color: #024402;
+  }
+  /*-------parrafo de my travel-----*/
+  .back {
+    width: 100vw;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+  }
+  .back a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px #024402;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .back a:hover {
+    color: #024402;
+    text-shadow: 1px 1px white;
+  }
+  /*---------------------Maquetado generico para el portfolio--------------------------*/
+}
+
+@media (min-width: 470px) {
+  h2 {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
